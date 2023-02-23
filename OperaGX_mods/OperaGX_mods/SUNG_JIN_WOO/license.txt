@@ -41,8 +41,6 @@ background  color on web pages in the opera.com domain. This will show you how
 to read colors from the browser and apply them to web pages. And lastly, we've
 included  basic shaders  that  demonstrate  how  to  use  animated and  static
 versions. Have fun creating your mods!
-
-practicando Git... Con Felipe
                               
  _____           _ _ _       
 |     |___ ___ _| |_| |_ ___ 

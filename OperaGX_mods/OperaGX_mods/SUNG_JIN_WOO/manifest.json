@@ -1,0 +1,66 @@
+{
+  "description": "SUNG JIN WOO PAPU",
+  "developer": {
+    "name": "EL PAIP"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": ["music/track_1.mp3"],
+
+      "page_styles": [
+        {
+          "css": ["css/main.theme.css", "css/changecolors.css"],
+          "matches": ["https://*.discord.com/*"]
+        }
+      ],
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 235,
+            "s": 79,
+            "l": 47
+          },
+          "gx_secondary_base": {
+            "h": 0,
+            "s": 0,
+            "l": 0
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 213,
+            "s": 100,
+            "l": 45
+          },
+          "gx_secondary_base": {
+            "h": 232,
+            "s": 100,
+            "l": 85
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/wallpaper.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        },
+        "light": {
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/wallpaper.jpeg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "name": "OH MY GOD",
+  "version": "1.2"
+}
